@@ -1,0 +1,61 @@
+body{
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+}
+h1{
+background-color: #efefef;
+padding: 10px;
+
+}
+p{
+    width: 450px;
+    left: 100px;
+    top: 10px;
+}
+blockquote{
+    float: right;/*A floatpropriedade CSS coloca um elemento no lado esquerdo ou direito de seu contêiner, permitindo que texto e elementos embutidos o envolvam.*/
+    width: 275px;
+    font-size: 130%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 10px 10px ;
+    border-top: 1px solid #665544;
+    border-bottom: 4mm ridge rgba(211, 220, 50, .6);
+}
+.clear,p{
+    clear: left;
+    width: 430px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+div{
+    border: 1px solid #665544;
+    overflow: auto;/*define o comportamento desejado quando o conteúdo não cabe na caixa do elemento pai (estouro) na direção horizontal e/ou vertical.overflow*/
+    width: 100%;
+}
+.column1of2{
+    float: left;
+    width: 620px;
+    margin: 10px;
+    
+
+}
+.column2of2{
+    float: left;
+    width: 300px;
+    margin: 10px;
+    color: chartreuse;
+    text-shadow: -1px 1px 1px #000;
+    text-align: center;
+    background-color: darkgrey;
+    
+}
+.column1of2, .column1of2 {
+    width: 600px;
+    float: left;
+    margin: 10px;
+    background-color: chocolate;
+    text-align: center;
+}

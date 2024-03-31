@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo01</title>
+</head>
+<body>
+    <script>
+    document.write("Minha idade é:" + 45 + "<br>");
+</script>
+<p>(2)Quantos anos você tem de diferença do seu irmão? <br> Adicione uma nova linha de Código, imprimindo a menssagem "Nossa diferença de idade é" , concate-nando com o resultado de subtração da sua idade com a do seu irmão(ou de um amigo, claro!). <br> A  resposta pode dar negativa, sem dúvida.</p>
+<p>(3) Se, em média, um casal tem filho quando eles tem cerca de 28 anos, quantas gerações se passaram desde o ano Zero? <br> Imprima esse número, dividindo o ano atual por  essa média.</p>
+
+<p>(2.4) <h1>Organize seus Dados Em Variáveis.</h1></p>
+<p>Podemos imprimir o ano de nascimento de cada um de nós trés, utilizando o recurso de juntar  (concatenar) uma sequência de caracteres (uma string) com números.</p>
+
+<script>
+    document.write("Eu nasci em : " + (1975 - 48) + "<br>");
+    document.write("Lucia nasceu em : " + (2012 - 26) + "<br>");
+    document.write("Paula nasceu em :" + (2012 - 37) + "<br>");
+</script>
+<h2>Descrição:</h2>
+<p>Além desse <br> que apareceu muitas vezes, tanto aqui quanto na seção anterior, o número 2012 é bastante repetido. <br> O que acontecerá quando precisamos atualizar esse numero para 2013? <br> Ou quando descobrirmos que Paulo tem na verdade uma idade diferente? <br> Precisariamos substituir todos esses valores, uma a uma. <br> Mesmo utilizando um atalho do seu editor para procurar/substituir, essa não é uma opção tão elegante. <br> Além disso, esses números 2012, 25, 26, é  32 aparecem sem um sentido muito claro no seu código: <br> quem lê-los provavelmente terá de se esforçar bastante para compreender o que você desejava expressas atráves deles.</p>
+<p>Como então facilitar a amudança desses números e também tornar nosso código mais compreensivel? <br> O ideal seria poder ter uma forma de dizer 2012, sem precisar repeti-lo. <br> Podemos fazer isso <strong>atribuindo</strong> o valor 2012 a, digamos, ano:</p>
+
+<h2>exemplo:</h2>
+<script>
+    var ano = 2012;
+    document.write("Eu nasci em: " + (ano - 25) + "<br>");
+    document.write("Adriano nasceu em : " + (ano - 26) + "<br>");
+    document.write("Paulo nasceu em : " + (ano - 32) + "<br>");
+</script> 
+<p>O que faz o trecho do código var ano = 2012? <br> Ele <strong>atribui</strong> 2012 a ano. <br> Chama-mos ano de <strong>Variável</strong>. <br> Uma variável pode guardar praticamente o que você quiser: <br> um número, uma string, um outro pedaço de código. <br> Podemos fazer o mesmo com a soma das idades: <br></p>
+<h2>exemplo</h2>
+<a href="Exemplo02.html">Variável</a>
+</body>
+</html>
