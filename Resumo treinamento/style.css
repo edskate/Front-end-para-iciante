@@ -6,7 +6,9 @@ body{
 h1{
 background-color: #efefef;
 padding: 10px;
-
+text-shadow: -1px 1px 1px #000;
+border: 2px solid #7617;
+background-color: rgba(231, 194, 8, 0.467);
 }
 p{
     width: 450px;
@@ -44,18 +46,26 @@ div{
 }
 .column2of2{
     float: left;
-    width: 300px;
+    width: 500px;
     margin: 10px;
-    color: chartreuse;
+    color: rgb(0, 0, 0);
     text-shadow: -1px 1px 1px #000;
     text-align: center;
-    background-color: darkgrey;
+    background-color: #c0c0c0;
     
 }
-.column1of2, .column1of2 {
+.column1of2, .column1of2 , .column1of3, .column1of4 {
     width: 600px;
     float: left;
     margin: 10px;
     background-color: chocolate;
     text-align: center;
+}
+h3{
+    color: red;
+    float: left;
+    text-align: center;
+    text-shadow: -1px 1px 1px #000;
+    border: 3px solid green;
+    width: 400px;
 }
