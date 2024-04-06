@@ -1,5 +1,6 @@
 body{
     white-space: 940px;
+    text-align: center;
 }
 div{
     border:2px solid #000;
@@ -8,7 +9,7 @@ div{
     text-align: center;
     background-color: rgb(185, 129, 238);
 }
-h1{
+h3,h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 948px;
     margin: auto;

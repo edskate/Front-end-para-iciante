@@ -38,7 +38,7 @@ div{
     width: 100%;
 }
 .column1of2{
-    float: left;
+    float: none;/*A floatpropriedade CSS coloca um elemento no lado esquerdo ou direito de seu contêiner, permitindo que texto e elementos embutidos o envolvam. */
     width: 620px;
     margin: 10px;
     

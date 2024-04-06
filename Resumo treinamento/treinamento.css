@@ -21,6 +21,25 @@ h2{
 .id-01{
     box-shadow: 1px 2px 3px #000;
     border: 2px solid #80ffff;
+    background-color: crimson;
     
+
+}
+p{
+    background-color: chartreuse;
+    border-bottom: 2px solid #80ffff;
+    border: 2px solid #80ffff;
+    margin: 20px;
+    box-shadow: 10px 1px 15px inset;
+    text-align: center;
+    color: #000;
+    text-shadow: -1px 1px 1px #000;
+
+}
+main{
+    border: 4mm ridge rgb(211, 220, 50, .6);/*define a borda de um elemento. */
+    box-shadow: 10px 10px 10px #000;
+    border-radius: 10px 10px 10px ;
+    margin: 50px;
 
 }
